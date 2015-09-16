@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.karkortet.marcusisaksson.karkortet2.fragments.CardFragment">
+
+    <TextView
+        android:id="@+id/cardNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_card_number"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_name"
+        android:layout_below="@+id/cardNumberText"/>
+
+    <TextView
+
+        android:id="@+id/cardValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_value"
+        android:layout_below="@+id/nameText"/>
+
+    <include
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        layout="@layout/activity_page_view"
+        android:background="#000000" />
+
+
+
+</RelativeLayout>

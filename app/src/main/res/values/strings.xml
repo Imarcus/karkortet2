@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Karkortet2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading">Loading</string>
+    <string name="no_value">No Value</string>
+    <string name="no_name">No Name</string>
+    <string name="no_card_number">No Card Number</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
